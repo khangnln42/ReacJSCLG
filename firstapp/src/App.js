@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Car from './Car';
 
 function App() {
-  return (
+  const html = (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,9 +18,12 @@ function App() {
         >
           Learn React
         </a>
+        <Car/>
+        <Car/>
       </header>
     </div>
   );
+  return html;
 }
 
 export default App;
