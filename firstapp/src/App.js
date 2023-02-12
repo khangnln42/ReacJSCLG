@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Car from './Car';
+import Xe from './Xe';
 
 function App() {
   const html = (
@@ -19,7 +20,8 @@ function App() {
           Learn React
         </a>
         <Car/>
-        <Car/>
+        <Xe color="red" value="màu đỏ" brand ="Toyota"/>
+        <Xe color="blue" value="màu xanh" brand ="Mazda"/>
       </header>
     </div>
   );
