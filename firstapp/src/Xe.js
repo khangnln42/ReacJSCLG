@@ -2,13 +2,13 @@ import React from 'react';
 
 class Xe extends React.Component{
     constructor(props){
-        console.log('Xe constuctor : ',props )
+        console.log('Xe constuctor : ',props );
         super(props);
         this.state = {
             color:this.props.color,
             brand:this.props.brand,
             value: this.props.value
-        }
+        };
         
     }
     render(){
